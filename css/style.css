@@ -34,12 +34,13 @@
     font-weight: normal;
     font-size: 16px;
     color: #102746;
-    line-height: 24px;
+    line-height: 1.2;
   }
 .wrapper{
     max-width: 1060px;
     margin: 0 auto;
 }
+/* Header styles start */
 .header{
   position: fixed;
   top: 0;
@@ -48,7 +49,6 @@
 }
 .header__wrapper{
     padding-top: 56px;
-    background-color: #102746;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -70,4 +70,79 @@
   text-decoration: none;
   color: #ffffff;
 }
-  
+.header__link:hover,
+.header__link:focus,
+.header__link:active{
+  opacity: .75;
+}
+/* Header styles end */
+/* Intro styles starts */
+  .intro{
+    min-height: 100vh;
+    background: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 369px;
+  }
+  .intro__title{
+    max-width: 619px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #ffffff;
+    margin-bottom: 22px;
+  }
+  .intro__subtitle{
+    max-width: 546px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 59px;
+  }
+  .search-form{
+    margin-bottom: 160px;
+  }
+  .search-form__info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search-form__field{
+    width: 297px;
+    background:transparent url(../img/svg/Oval.svg) no-repeat left 4px;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    margin-right: 60px;
+    padding-bottom: 22px;
+    padding-left: 44px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .search-form__field::placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .search-form__field::input-placeholder{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .search-form__submit{
+    border: 0;
+    background: #1B7DFF;
+    padding: 15px 39px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  .search-form__submit:hover,
+  .search-form__link:focus,
+  .search-form__submit:active{
+    background: #1d5aa9;
+  }
+/* Intro styles end */
