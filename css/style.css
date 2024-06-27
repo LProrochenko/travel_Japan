@@ -34,7 +34,7 @@
     font-weight: normal;
     font-size: 16px;
     color: #102746;
-    line-height: 1.2;
+    line-height: 24px;
   }
   img{
     max-width: 100%;
@@ -91,7 +91,6 @@
 }
 .header__link{
   font-size: 18px;
-  line-height: 24px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -120,7 +119,6 @@
   .intro__subtitle{
     max-width: 546px;
     font-size: 16px;
-    line-height: 24px;
     color: #ffffff;
     margin-bottom: 59px;
   }
@@ -140,19 +138,16 @@
     padding-bottom: 22px;
     padding-left: 44px;
     font-size: 18px;
-    line-height: 24px;
     font-weight: 500;
     color: #ffffff;
   }
   .search-form__field::placeholder{
     font-size: 18px;
-    line-height: 24px;
     font-weight: 500;
     color: #ffffff;
   }
   .search-form__field::input-placeholder{
     font-size: 18px;
-    line-height: 24px;
     font-weight: 500;
     color: #ffffff;
   }
@@ -208,19 +203,14 @@
   .benefits__card-title{
     font-size: 18px;
     font-weight: 500;
-    line-height: 24px;
     margin-bottom: 26px;
   }
   .benefits__card-desc{
-    font-size: 16px;
-    line-height: 24px;
     margin-bottom: 39px;
   }
   .benefits__card-more{
     text-decoration: none;
     color: #006DFE;
-    font-size: 16px;
-    line-height: 24px;
     padding-right: 59px;
     background: url(../img/svg/benefits-ico.svg) no-repeat 95%;
     transition: all .2s;
@@ -244,8 +234,6 @@
 .places__view-all{
   text-decoration: none;
   color: #006DFE;
-  font-size: 16px;
-  line-height: 24px;
   padding-right: 59px;
   transition: all .2s;
   background: url(../img/svg/benefits-ico.svg) no-repeat 95% center;
@@ -322,12 +310,10 @@
   margin-bottom: 85px;
 }
 .tour__desc{
-  line-height: 24px;
   margin-bottom: 58px;
 }
 .tour__more{
   text-decoration: none;
-  line-height: 24px;
   color: #006DFE;
   padding-right: 59px;
   transition: all .2s;
@@ -337,5 +323,78 @@
 .tour__more:focus{
   background: url(../img/svg/benefits-ico.svg) no-repeat right center
 }
-
 /* Tours styles end */
+/* Top places styles start */
+.top{
+  margin-bottom: 144px;
+}
+.top__title{
+  margin-bottom: 54px;
+}
+.top__cards{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 58px 52px;
+}
+.top__card{
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+}
+.top__card-pic{
+  position: relative;
+  margin-bottom: 45px;
+}
+.top__card-stats{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 15px 25px;
+}
+.top__card-title{
+  margin: 0 auto 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.top__card-likes{
+  background: url(../img/svg/heart-ico.svg) no-repeat right center;
+  padding-right: 20px;
+  margin-right: 14px;
+}
+.top__card-likes-value{
+  font-weight: 500;
+  color: #ffffff;
+}
+.top__card-comments{
+  background: url(../img/svg/msg_ico.svg) no-repeat right center;
+  padding-right: 23px;
+}
+.top__card-comments-value{
+  font-weight: 500;
+  color: #ffffff;
+}
+.top__card-desc{
+  margin-bottom: 31px;
+}
+.top__card-more{
+  width: 118px;
+  padding: 11px 19px;
+  color: #ffffff;
+  background: #006DFE;
+  text-decoration: none;
+  margin: auto 0 0 0;
+}
+.top__card-more:hover,
+.top__card-more:focus,
+.top__card-more:active{
+  background:#1d5aa9;
+}
+
+
+/* Top places styles end */
