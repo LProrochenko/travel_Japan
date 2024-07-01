@@ -395,6 +395,24 @@ gap: 58px 52px;
 .top__card-more:active{
   background:#1d5aa9;
 }
-
-
 /* Top places styles end */
+/* Videos styles start */
+.videos{
+  width: 100%;
+}
+.videos__wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.videos__item{
+  padding-top: 56.25%;
+}
+.videos__element{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Videos styles end */
