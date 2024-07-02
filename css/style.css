@@ -71,6 +71,12 @@
   top: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 20px;
+  transition: .2s linear;
+  z-index: 999;
+}
+.header_active{
+  background-color:#0E1D28;
 }
 .header__wrapper{
     padding-top: 56px;
@@ -419,7 +425,7 @@ gap: 58px 52px;
 /* Footer styles start */
 .footer{
   background: #0E1D28;
-  padding: 119px 0;
+  padding: 119px  0px;
 }
 .footer__wrapper{
   display: flex;
